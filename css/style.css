@@ -49,6 +49,7 @@ body {
   align-items: center;
   background: rgba(0, 0, 0, 0.8);
   width: 100%;
+  background-color: #f5f5f5a6;
   
 }
 
@@ -67,12 +68,14 @@ body {
 
 .lightbox--button {
   position: absolute;
-  top: -35px;
-  right: 0;
+  top: -25px;
+  right: -20px;
   cursor: pointer;
   font-size: 20px;
   padding: 5px 5px;
   background-image: url(../img/cross.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
 }
